@@ -3,7 +3,7 @@ import { Injectable } from "@nestjs/common";
 @Injectable()
 export class AppService {
   getHello(): string {
-    return "nest 初始化 get Hello!";
+    return "我来自nest后台数据!";
   }
 
   getList(): string[] {
