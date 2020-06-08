@@ -12,6 +12,7 @@ export class AuthService {
       return {
         status: 200,
         message: "登录成功",
+        user: { username: body.username },
       };
     } else {
       return {
